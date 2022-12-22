@@ -21,6 +21,6 @@ resource "aws_instance" "app_server" {
   subnet_id                 = "subnet-017d493672d6b9360"
   
   tags = {
-    Name = "AWS - Testing 2"
+    Name = "Terraform Ansible Python"
   }
 }
